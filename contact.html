@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>OVkunststoffe</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <!-- TemplateMo 565 Onix Digital https://templatemo.com/tm-565-onix-digital -->
+
+    <style>
+        .banner {
+          /* background-color: #007bff; */
+            background-image: url('./assets/images/25489\ [Converted].png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: rgb(21, 19, 19);
+            padding: 150px 0; /* Adjusted padding to make sure it is not under the nav bar */
+            text-align: center;
+            height: 600px;
+           
+        }
+        .banner h1 {
+            font-size: 3.5em; /* Increased font size */
+            margin-bottom: 0px;
+            margin-top: 70px;
+        }
+        .banner p {
+            font-size: 1.2em;
+        }
+.location_card{
+  display: inline-flex;
+  align-items: none;
+  justify-content: none;
+  flex-direction: none;
+}
+
+
+
+.nav li {
+position: relative;
+}
+
+.dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: white;
+box-shadow: 0 16px 16px rgba(0,0,0,0.2);
+z-index: 1;
+width: 400px;
+height:auto;
+}
+
+.dropdown-menu li {
+list-style: none;
+padding: 8px 16px;
+}
+
+.dropdown-menu li a {
+color: black;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-menu li a:hover {
+background-color: #ddd;
+}
+
+.nav li.dropdown:hover .dropdown-menu {
+display: block;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* background-color: #25d366; */
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensures the button stays on top */
+}
+
+.whatsapp-button a img {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+
+              /* Add this CSS to your stylesheet */
+              .nav li {
+  position: relative;
+              }
+
+/* Media query for mobile phones */
+@media (max-width: 767px) {
+    .banner h1 {
+        font-size: 3em; /* Adjust the size as needed */
+        margin-top: 150px; /* Adjust the margin as needed */
+        
+    }
+    .contact-us section{
+      padding: 0px;
+    }
+    .location_card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+}
+
+.call-button-mob {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #28a745; /* Green background */
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            width: 60px;
+            height: 60px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            position: fixed; /* Fixes the button position */
+            right: 10px; /* Positions the button 10px from the right */
+            bottom: 80px; /* Positions the button 80px from the bottom */
+            z-index: 1000; /* Ensures the button stays on top */
+        }
+        
+        .call-button-mob:hover {
+            background-color: #218838; /* Darker green on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        .call-button-mob img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 250px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1001; /* Ensure dropdown is above button */
+            right: 80px; /* Adjust position to the left of the button */
+            bottom: 80px; /* Adjust position to align with button */
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        
+</style>
+</head>
+
+<body>
+
+  
+<!-- <div class="call-button-mob" onclick="toggleDropdown()">
+  <a href="#">
+      <img src="./assets/images/logos/call.jpg" style="height: 30px;" alt="Call">
+  </a>
+  <div id="dropdownMenu" class="dropdown-content">
+    <div style="display: flex;">
+      <img src="./assets/images/logos/india (1).png" alt="" style="height: 30px; width: 35px; ">
+      <a href="tel:+00919605750005">+919605750005</a>
+    </div>
+    <div style="display: flex;">
+      <img src="./assets/images/logos/india (1).png" alt="" style="height: 30px; width: 35px;">
+      <a href="tel:+91 954 405 2717">+91 954 405 2717
+      </a>
+    </div>
+      <div style="display: flex;">
+        <img src="./assets/images/logos/dubi.png" alt="" style="height: 25px; width: 25px;margin-left: 5px;">
+        <a href="tel:+0097142996378">+97142996378</a>
+      </div>
+      <div style="display: flex;">
+        <img src="./assets/images/logos/dubi.png" alt="" style="height: 25px; width: 25px; margin-left: 5px;">
+        <a href="tel:+971 50 655 6826">+971 50 655 6826
+        </a>
+      </div>
+  </div>
+</div> -->
+
+
+
+
+  <div class="whatsapp-button">
+    <a href="https://wa.me/971506556826" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+</div>
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header id="navbar" class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <img src="assets/images/ov-ku.png" style="width: 200px;">
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section"><a href="index.html" >Home</a></li>
+                <!-- <li class="scroll-to-section"><a href="index.html">About</a></li> -->
+                <li class="scroll-to-section"><a href="service.html">Services</a></li>
+                <li class="scroll-to-section"><a href="brands.html">Brands</a></li>
+                <li class="scroll-to-section dropdown">
+                  <a href="product.html">Products</a>
+                  <ul class="dropdown-menu mobile-hide">
+                    <li><a href="./product.html#p1">Soundproof Pipe System</a></li>
+                    <li><a href="./product.html#p2">DWC Pipes And Machine Supply</a></li>
+                    <li><a href="./product.html#p3">Plastic Rubber Sealing System</a></li>
+                    <li><a href="./product.html#p4">Specialized Plastic Packaging</a></li>
+                    <li></li>
+                  </ul>
+                  
+                </li>
+                <style>
+                 @media (max-width: 768px) {
+    .mobile-hide {
+      display: none !important;
+    }
+  }
+  
+  
+                </style>
+                </li>
+                <li class="scroll-to-section dropdown">
+                  <a href="contact.html"class="active">Contact us</a>
+                  <!-- <ul class="dropdown-menu">
+                    <li>
+                      <div style="display: flex;">
+                        <img src="./assets/images/logos/india (1).png" alt="" style="height: 30px; width: 35px;">
+                        <a href="tel:+00919605750005">00919605750005</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div style="display: flex;">
+                        <img src="./assets/images/logos/dubi.png" alt="" style="height: 25px; width: 25px;">
+                        <a href="tel:+0097142996378">0097142996378</a>
+                      </div>
+                    </li>
+                    <li></li>
+                  </ul> -->
+                </li>
+                <!-- <li class="scroll-to-section"><a href="#video">Videos</a></li> -->
+                <li class="scroll-to-section">
+                  <div class="main-red-button-hover">
+                    <a href="tel:+971506556826"><i class="fa fa-phone"></i> Call Now</a>
+                  </div>
+                </li>
+              </ul>
+              <a class='menu-trigger'>
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Banner Start ***** -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Contact us</h1>
+                    <p>Feel free To contct us  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Banner End ***** -->
+
+
+
+    <div id="contact" class="contact-us section" style="padding: 0%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="section-heading">
+              <h2>Feel free to <em>Contact</em> us </h2>
+              <div id="map">
+                <h2>DUBAI</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16880287.28292563!2d46.58624703271439!3d23.899098395921268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5df4fd6dc465%3A0x4ffc502d7499088c!2sEmirates%20Post%20-%20Al%20Rashidiyah%20Post%20Office!5e0!3m2!1sen!2sin!4v1720591005514!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="info align-self-center" style="width:100%; padding: 20px 0 20px 0;">
+                <div>
+                  <h2>DUBAI</h2>
+                </div>
+                <div   class="location_card ">
+                  <span><i class="fa fa-phone"></i> <a href="tel:+97142996378">+971 42 996 378</a></span>
+                  <span style="padding-left: 10px;"><i class="fa fa-phone"></i> <a href="tel:971 050 655 6826">+971 50 655 6826</a></span>
+                  <span style="padding-left: 20px;"><i class="fa fa-map-marker"></i> <a href="#"> Post box 77157,<br> Ummul Ramoul, <br>Rashidiya Office No 5,<br> Dubai UAE</a></span>
+                </div>
+              </div>
+              <div class="info align-self-center" style="width:100%; padding: 20px 0 20px 0;">
+                <div>
+                  <h2>KERALA</h2>
+                </div>
+                <div class="location_card">
+                  <span><i class="fa fa-phone"></i> <a href="tel:+919544052717">+91 954 405 2717</a></span>
+                  <span style="padding-left: 10px;"><i class="fa fa-phone"></i> <a href="tel:+919605750005">+91 960 575 0005</a></span>
+                  <span style="padding-left: 20px;"><i class="fa fa-map-marker"></i> <a href="#">V studio Ayyanthole,<br> Trichur 680003<br>Kerala, India</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 align-self-center">
+            <form id="contact" action="" method="get">
+              <div class="row">
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <!-- <fieldset>
+                    <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+                  </fieldset> -->
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="text" name="phone" id="phone" placeholder="Your phone number" required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="text" name="message" id="message" placeholder="How we can help you?" required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="main-button">Submit Request</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+            <!-- New map section starts here -->
+            <div id="map" style="+                                                +">
+              <h2>KERALA</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7697.040957506026!2d76.18401249522651!3d10.533451109038614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ef71966a5caf%3A0xf66e49ad8f37d2ce!2sV%20STUDIO!5e0!3m2!1sen!2sin!4v1720591138500!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- New map section ends here -->
+          </div>
+        </div>
+      </div>
+      <div class="contact-dec">
+        <img src="assets/images/contact-dec.png" alt="">
+      </div>
+      <div class="contact-left-dec">
+        <img src="assets/images/contact-left-dec.png" alt="">
+      </div>
+    </div>
+    
+    
+    
+  <div class="footer-dec">
+    <img src="assets/images/footer-dec.png" alt="">
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="about footer-item">
+            <div class="logo">
+              <a href="#"><img src="assets/images/ov-ku.png" style="width: 200px;" alt="Onix Digital TemplateMo"></a>
+            </div>
+            <a href="mailto:info@ov-kunststoffe.com">info@ov-kunststoffe.com</a>
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services footer-item">
+            <h4>Brands</h4>
+            <ul>
+              <li><a href="brands.html"></a>petrogulfpolymers</li>
+              <li><a href="brands.html">getrapack</a></li>
+              <li><a href="brands.html">ostendorf-kunststoffe</a></li>
+              <li><a href="brands.html">drossbach</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="community footer-item">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="product.html">Soundproof Pipe System</a></li>
+              <li><a href="product.html">Dwc Pipes</a></li>
+              <li><a href="product.html">Plastic Rubber Sealing</a></li>
+              <li><a href="product.html">Specialized plastic packaging</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        <div class="col-lg-3">
+          <div class="subscribe-newsletters footer-item"> 
+            <a href="service.html"><h4>Our Services</h4></a>
+            <p>our services</p>
+           <hr>
+            <p>Get our latest news and ideas to your inbox</p>
+            <form action="#" method="get">
+              <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+              <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright">
+            <p>Copyright © 2024 OVkunststoffe, Ltd. All Rights Reserved. 
+            
+            <!-- Distributed by <a href="https://themewagon.com">Themewagon</a> -->
+          </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+      // Acc
+      $(document).on("click", ".naccs .menu div", function() {
+          var numberIndex = $(this).index();
+
+          if (!$(this).is("active")) {
+              $(".naccs .menu div").removeClass("active");
+              $(".naccs ul li").removeClass("active");
+
+              $(this).addClass("active");
+              $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+              var listItemHeight = $(".naccs ul")
+                  .find("li:eq(" + numberIndex + ")")
+                  .innerHeight();
+              $(".naccs ul").height(listItemHeight + "px");
+          }
+      });
+  </script>
+
+
+<script>
+  $("#form-submit").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycbxwx5uJi-6jBAO2sRKR8-3dbK-pX6y3aD4qaEQ_XO_O_bz473DXazrosczF4M5yGfh4/exec",
+          data:$("#form-submit").serialize(),
+          method:"post",
+          success:function (response){
+              // alert("Contact Form submitted successfully")
+              window.location.reload()
+              //window.location.href="https://google.com"
+          },
+          error:function (err){
+              alert("Something Error")
+
+          }
+      })
+  })
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  function toggleDropdown() {
+      var dropdown = document.getElementById("dropdownMenu");
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+  }
+</script>
+</body>
+
+</html>
+
+<!-- 
+<div id="contact" class="contact-us section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="section-heading">
+          <h2>Feel free to <em>Contact</em> us </h2>
+          <div id="map">
+            <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="360px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+          </div>
+          <div class="info align-self-center" style="width:600px ;padding: 20px 0 20px 0;">
+            <div>
+              <h2>DUBAI</h2>
+            </div>
+            <div style="display: inline-flex;">
+            <span><i class="fa fa-phone"></i> <a href="#">+971 042 996 378<br>+971 050 655 6826</a></span>
+            <span style="padding-left: 20px;"><i class="fa fa-map-marker"></i> <a href="#">  Post box 77157,<br> Ummul Ramoul , <br>Rashidiya Office No 5,<br> Dubai UAE</a></span>
+          </div>
+
+          </div>
+          <div class="info align-self-center" style="width:600px ;padding: 20px 0 20px 0;">
+            <div>
+              <h2>KERALA</h2>
+            </div>
+            <div style="display: inline-flex;">
+            <span><i class="fa fa-phone"></i> <a href="#">+91 960 575 0005<br>+91 954 405 2717</a></span>
+            <span style="padding-left: 20px;"><i class="fa fa-map-marker"></i> <a href="#">V studio Ayyanthole,<br> Trichur 680003<br>Kerala, India</a></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-5 align-self-center">
+        <form id="contact" action="" method="get">
+          <div class="row">
+            <div class="col-lg-12">
+              <fieldset>
+                <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+              </fieldset>
+            </div>
+            <div class="col-lg-12"> -->
+              <!-- <fieldset>
+                <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+              </fieldset> -->
+            <!-- </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <input type="text" name="phone" id="phone" placeholder="Your phone number" required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <input type="text" name="message" id="message" placeholder="How we can help you?" required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <button type="submit" id="form-submit" class="main-button">Submit Request</button>
+              </fieldset>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="contact-dec">
+    <img src="assets/images/contact-dec.png" alt="">
+  </div>
+  <div class="contact-left-dec">
+    <img src="assets/images/contact-left-dec.png" alt="">
+  </div>
+</div>
+
+
+ -->

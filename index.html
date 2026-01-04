@@ -1,0 +1,1400 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>OVkunststoffe
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+<!--
+
+TemplateMo 565 Onix Digital
+
+https://templatemo.com/tm-565-onix-digital
+
+-->
+<style>
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* background-color: #25d366; */
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensures the button stays on top */
+}
+
+.whatsapp-button a img {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+
+              /* Add this CSS to your stylesheet */
+              .nav li {
+  position: relative;
+}
+
+/* Add this CSS to your stylesheet */
+.nav li {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 320px;
+  height: auto;
+  padding: 10px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.dropdown-menu li {
+  list-style: none;
+  padding: 8px 16px;
+}
+
+.dropdown-menu li a {
+  padding-left: 10px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+  border-radius: 10px;
+  background-color:whitesmoke;
+  color: #333;
+}
+
+.nav li.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav li.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-123 .dropdown-content-123 {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            width: 200px;
+        }
+        .dropdown-123 .dropdown-content-123 a {
+          padding-left: 10px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .dropdown-123 .dropdown-content-123 a img {
+            margin-right: 8px;
+            width: 20px;
+            height: auto;
+        }
+        .dropdown-123 .dropdown-content-123 a:hover {
+          border-radius: 10px;
+  background-color:whitesmoke;
+  color: #333;
+        }
+        .dropdown-123:hover .dropdown-content-123 {
+            display: block;
+        }
+        .dropdown-123:hover .dropbtn {
+            /* background-color: #3e8e41; */
+        }
+
+
+        .dropbtn {
+  color: rgb(16, 16, 204);
+  background-color: aliceblue;
+  border-radius: 20px;
+  border-color: rgb(41, 149, 243);
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold; /* Make text bold */
+  border: 2px solid transparent; /* Ensure button has a border */
+  outline: none; /* Remove default focus styling */
+  position: relative; /* Required for the animation */
+  overflow: hidden; /* Ensure text does not overflow button */
+}
+
+/* Style for the blinking animation */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Apply the blinking animation */
+.blink-button .dropbtn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  animation: blink 2s infinite; /* Adjust animation speed as needed */
+  border-radius: 20px;
+  z-index: 1;
+}
+
+/* Adjust z-index to ensure button text is visible above the animation */
+.blink-button .dropbtn {
+  position: relative;
+  z-index: 2;
+}
+
+
+.phone-link {
+  text-decoration: none; /* Remove underline */
+  color: white;
+  display: inline-block;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.phone-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the jump effect */
+}
+
+.phone-container:hover {
+  transform: translateY(-5px); /* Move container up on hover */
+}
+
+.phone-container i {
+  font-size: 20px; /* Adjust icon size */
+  padding-right: 10px;
+  font-weight: bold; /* Make icon bold */
+}
+
+.phone-container p {
+  color: white;
+  margin: 0;
+  font-size: 16px; /* Adjust phone number text size */
+  font-weight: bold; /* Make phone number bold */
+}
+
+.fa-phone {
+  animation: jump 1.5s infinite; /* Animation for the phone icon */
+}
+
+@keyframes jump {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); /* No movement at these keyframes */
+  }
+  40%, 60% {
+    transform: translateY(-10px); /* Jump up at these keyframes */
+  }
+}
+
+/* Default styles (for desktop view) */
+.phone-container i,
+.phone-container p,
+.dropbtn {
+  font-weight: normal; /* Reset font weight to normal for desktop */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .phone-call-section {
+    margin-top: 20px; /* Adjust spacing as needed */
+  }
+
+  .enquire-now-section {
+    margin-top: 20px; /* Adjust spacing as needed */
+  }
+
+  .phone-numbers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .phone-container {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; /* Adjust spacing between phone numbers */
+    margin-bottom: 10px; /* Adjust vertical spacing between phone numbers */
+  }
+
+  .phone-container i {
+    font-size: 20px;
+    padding-right: 10px;
+    font-weight: bold; /* Make icon bold */
+  }
+
+  .phone-container p {
+    color: aliceblue;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold; /* Make phone number bold */
+  }
+
+  .blink-button {
+    display: block; /* Ensure button spans full width */
+    text-align: center; /* Center align button */
+  }
+
+  .dropbtn {
+    color: rgb(16, 16, 204);
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-color: rgb(41, 149, 243);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold; /* Make button text bold */
+    border: 2px solid transparent; /* Ensure button has a border */
+    outline: none; /* Remove default focus styling */
+    display: inline-block; /* Ensure button behaves correctly */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+  }
+
+  .dropbtn:hover {
+    background-color: rgb(41, 149, 243);
+    color: white;
+  }
+}
+  
+
+
+.call-button-mob {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #28a745; /* Green background */
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            width: 60px;
+            height: 60px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            position: fixed; /* Fixes the button position */
+            right: 10px; /* Positions the button 10px from the right */
+            bottom: 80px; /* Positions the button 80px from the bottom */
+            z-index: 1000; /* Ensures the button stays on top */
+        }
+        
+        .call-button-mob:hover {
+            background-color: #218838; /* Darker green on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        .call-button-mob img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 250px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1001; /* Ensure dropdown is above button */
+            right: 80px; /* Adjust position to the left of the button */
+            bottom: 80px; /* Adjust position to align with button */
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        
+</style>
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <!-- <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div> -->
+  <!-- ***** Preloader End ***** -->
+
+  
+    
+
+
+<!-- <div class="call-button-mob" onclick="toggleDropdown()">
+    <a href="#">
+        <img src="./assets/images/logos/call.jpg" style="height: 30px;" alt="Call">
+    </a>
+    <div id="dropdownMenu" class="dropdown-content">
+      <div style="display: flex;">
+        <img src="./assets/images/logos/india (1).png" alt="" style="height: 30px; width: 35px; ">
+        <a href="tel:+00919605750005">+919605750005</a>
+      </div>
+      <div style="display: flex;">
+        <img src="./assets/images/logos/india (1).png" alt="" style="height: 30px; width: 35px;">
+        <a href="tel:+91 954 405 2717">+91 954 405 2717
+        </a>
+      </div>
+        <div style="display: flex;">
+          <img src="./assets/images/logos/dubi.png" alt="" style="height: 25px; width: 25px;margin-left: 5px;">
+          <a href="tel:+0097142996378">+97142996378</a>
+        </div>
+        <div style="display: flex;">
+          <img src="./assets/images/logos/dubi.png" alt="" style="height: 25px; width: 25px; margin-left: 5px;">
+          <a href="tel:+971 50 655 6826">+971 50 655 6826
+          </a>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+  <div class="whatsapp-button">
+    <a href="https://wa.me/971506556826" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+</div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/ov-ku.png" style="width: 200px;">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <!-- <li class="scroll-to-section"><a href="#about">About</a></li> -->
+              <li class="scroll-to-section"><a href="service.html">Services</a></li>
+              <li class="scroll-to-section"><a href="brands.html">Brands</a></li>
+              <li class="scroll-to-section dropdown">
+                <a href="product.html">Products</a>
+                <ul class="dropdown-menu mobile-hide">
+                  <li><a href="./product.html#p1">Soundproof Pipe System</a></li>
+                  <li><a href="./product.html#p2">DWC Pipes And Machine Supply</a></li>
+                  <li><a href="./product.html#p3">Plastic Rubber Sealing System</a></li>
+                  <li><a href="./product.html#p4">Specialized Plastic Packaging</a></li>
+                  <li></li>
+                </ul>
+                
+              </li>
+              <style>
+               @media (max-width: 768px) {
+  .mobile-hide {
+    display: none !important;
+  }
+}
+
+
+              </style>
+              <li class="scroll-to-section dropdown">
+                <a href="contact.html">Contact us</a>
+                <!-- <ul class="dropdown-menu">
+                  <li>
+                    <div style="display: flex;">
+                      <img src="./assets/images/logos/india (1).png" alt="" style="height: 30px; width: 35px;">
+                      <a href="tel:+00919605750005">00919605750005</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div style="display: flex;">
+                      <img src="./assets/images/logos/dubi.png" alt="" style="height: 25px; width: 25px;">
+                      <a href="tel:+0097142996378">0097142996378</a>
+                    </div>
+                  </li>
+                  <li></li>
+                </ul> -->
+              </li>
+              <!-- <li class="scroll-to-section"><a href="#video">Videos</a></li> -->
+              <li class="scroll-to-section">
+                <div class="main-red-button-hover">
+                  <a href="tel:+971506556826"><i class="fa fa-phone"></i> Call Now</a>
+                </div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="owl-carousel owl-banner">
+                <div class="item header-text">
+                  <h6>Welcome to OV kunststoffe</h6>
+                  <h2>Building   <em>Future with</em>  <span>High-Quality Plastics</span></h2>
+                  <p>OV Kunststoffe is a plastic product and engineering
+                    solution provider, holding major associations with leading German
+                    companies.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="contact.html">Message Us Now</a>
+                    </div>
+                    <div class="call-button">
+                      <a href="tel:919605750005"><i class="fa fa-phone"></i>+919605750005 </a>
+                       
+                    </div>
+                    <div class="call-button">
+                      <a href="tel:+91 954 405 2717"><i class="fa fa-phone"></i>+91 954 405 2717 </a>
+                       
+                    </div>
+                  </div>
+                </div>
+                <div class="item header-text">
+                  <h6>Welcome to OV kunststoffe</h6>
+                  <h2>Durable   <em>Plastic Pipes  </em> for  <span>Every Flow</span></h2>
+                  <p>Experience the resilience and longevity of advanced plastic piping solutions designed to withstand the test of time</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="brands.html">Our Brands</a>
+                    </div>
+                  
+                    <div class="call-button">
+                      <a href="tel:+97142996378"><i class="fa fa-phone"></i>+97142996378</a>
+                    </div>
+                    <div class="call-button">
+                      <a href="tel:+971 50 655 6826"><i class="fa fa-phone"></i>+971 50 655 6826 </a>
+                    </div>
+                  
+                  </div>
+                </div>
+                <div class="item header-text">
+                  <h6>OV kunststoffe</h6>
+                  <h2>Streamlining Plastic Production:<em>  Advanced Machines for Efficiency</em> <span></span></h2>
+                  <p><a rel="nofollow" href="contact.html" target="_blank">Contact us</a> We provide a wide range of plastic resins and compounds to meet the diverse needs of manufacturers and industries.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="product.html">our Products</a>
+                    </div>
+                    <div class="call-button">
+                      <a href="tel:+971506556826"><i class="fa fa-phone"></i> +971506556826</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="our-services section" style="padding: 0px;">
+    <div class="services-right-dec">
+      <img src="assets/images/services-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="services-left-dec">
+        <img src="assets/images/services-left-dec.png" alt="">
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>our
+               <em> Brands,</em> Your Best Choice <span>
+              <!-- Our Tools</span></h2>
+            <span>Our Services</span> -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-services">
+            <div class="item">
+              <!-- <h4>Learn More about our Guidelines</h4> -->
+              <div class="">
+                <a href="https://www.drossbach.de/de/" target="_blank">
+                  <img src="assets/images/logos/drossbach.png" alt="Drossbach Logo">
+                </a>
+              </div>
+              
+              <!-- <p>View Website</p> -->
+            </div>
+            <div class="item">
+              <!-- <h4>Develop The Best Strategy for Business</h4> -->
+              <div class="">
+                <a href="https://www.getrapack.it/en/home-en/">
+                <img src="assets/images/logos/getrapack-logo-web-300x60.png" alt="">
+              </a>
+              </div>
+              <!-- <p>View Website</p> -->
+            </div>
+            <div class="item">
+              <!-- <h4>UI / UX Design and Development</h4> -->
+              <div class="">
+                <a href="https://petrogulfpolymers.com/">
+                <img src="assets/images/logos/Logo.svg" alt="">
+              </a>
+              </div>
+              <!-- <p>View Website</p> -->
+            </div>
+            <div class="item">
+              <!-- <h4>Discover &amp; Explore our SEO Tips</h4> -->
+              <div class="">
+                <a href="https://www.ostendorf-kunststoffe.com/">
+                <img src="assets/images/logos/ostendorf-logo.svg" alt="">
+                </a>
+              </div>
+              <!-- <p>View Website</p> -->
+            </div>
+            <div class="item">
+              <!-- <h4>Optimizing your websites for Speed</h4> -->
+              <div class="">
+                <a href="https://www.buescherhoff.com/">
+                <img src="assets/images/logos/WhatsApp_Image_2024-03-26_at_10.11.29_982aca07-removebg-preview.png" alt="">
+              </a>
+              </div>
+              <!-- <p>View Website</p> -->
+            </div>
+
+            <div class="item">
+              <!-- <h4>Optimizing your websites for Speed</h4> -->
+              <div class="">
+                <a href="http://www.mds-dichtungen.de/cms/front_content.php?idart=123">
+                <img src="assets/images/logos/mds.png" alt="">
+              </a>
+              </div>
+              <!-- <p>View Website</p> -->
+            </div>
+            <!-- <div class="item">
+              <h4>See The Strategy In The Market</h4>
+              <div class="icon"><img src="assets/images/service-icon-02.png" alt=""></div>
+              <p>Get to know more about the topic in details</p>
+            </div>
+            <div class="item">
+              <h4>Best Content Ideas for your pages</h4>
+              <div class="icon"><img src="assets/images/service-icon-03.png" alt=""></div>
+              <p>Feel free to use this template for your business</p>
+            </div>
+            <div class="item">
+              <h4>Optimizing Speed for your web pages</h4>
+              <div class="icon"><img src="assets/images/service-icon-04.png" alt=""></div>
+              <p>Get to know more about the topic in details</p>
+            </div>
+            <div class="item">
+              <h4>Accessibility for mobile viewing</h4>
+              <div class="icon"><img src="assets/images/service-icon-01.png" alt=""></div>
+              <p>Get to know more about the topic in details</p>
+            </div>
+            <div class="item">
+              <h4>Content Ideas for your next project</h4>
+              <div class="icon"><img src="assets/images/service-icon-02.png" alt=""></div>
+              <p>Feel free to use this template for your business</p>
+            </div>
+            <div class="item">
+              <h4>UI &amp; UX Design &amp; Development</h4>
+              <div class="icon"><img src="assets/images/service-icon-03.png" alt=""></div>
+              <p>Get to know more about the topic in details</p>
+            </div>
+            <div class="item">
+              <h4>Discover the digital marketing trend</h4>
+              <div class="icon"><img src="assets/images/service-icon-04.png" alt=""></div>
+              <p>Get to know more about the topic in details</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- about section start -->
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      
+      <div class="row">
+        
+        <div class="col-lg-6 align-self-center">
+          
+          <div class="left-image">
+            <img src="assets/images/plastic products/WhatsApp Image 2024-03-27 at 2.26.33 PM.jpeg" alt="Two Girls working together">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h2>Your Premier Partner in   <em>Plastic Raw Materials</em> &amp; <span>and Chemical </span> Solutions</h2>
+            <p>
+              At OV Kunststoffe, we specialize in Business Development for premium German brands like Ostendorf Kunststoffe. We provide direct project supply for soundproof pipe systems, Skolan Safe solutions, HT Safe materials, DWC pipes, and double-wall corrugated pipes. Our expertise includes negotiating licenses and joint ventures to foster growth and innovation in petrochemical products and polymer raw materials. We connect German technology providers with businesses seeking advanced solutions, ensuring seamless integration of Ostendorf's products. Additionally, we trade in PVC, PP, HDPE, and PPR products, offering supply, technology, installation, licensing, and trading of German brand plastic products. We also support our clients with comprehensive after-sales service and technical training to maximize the benefits of our products. Our commitment to quality and innovation makes us a trusted partner in the industry. We pride ourselves on delivering tailored solutions that meet the specific needs of each client.
+              </p>
+            <div class="row">
+              <!-- <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="icon">
+                      <img src="assets/images/service-icon-01.png" alt="">
+                    </div>
+                    <div class="count-digit">320</div>
+                    <div class="count-title">SEO Projects</div>
+                    <p>Lorem ipsum dolor sitti amet, consectetur.</p>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="icon">
+                      <img src="assets/images/service-icon-02.png" alt="">
+                    </div>
+                    <div class="count-digit">640</div>
+                    <div class="count-title">Websites</div>
+                    <p>Lorem ipsum dolor sitti amet, consectetur.</p>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="icon">
+                      <img src="assets/images/service-icon-03.png" alt="">
+                    </div>
+                    <div class="count-digit">120</div>
+                    <div class="count-title">Satisfied Clients</div>
+                    <p>Lorem ipsum dolor sitti amet, consectetur.</p>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- about secttion end -->
+
+
+<!-- why choose us section start -->
+
+
+  <style>
+    @media (max-width: 767px) {
+  #subscribe {
+    display: none;
+  }
+}</style>
+
+
+  <div id="subscribe" class="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="inner-content" style="background-image: linear-gradient(120deg , blue,skyblue);">
+            <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                <!-- <h2>Why Choose us</h2> -->
+                <div id="services" class="our-services section" style="padding: 0;">
+                  <div class="services-right-dec">
+                    <img src="assets/images/services-right-dec.png" alt="">
+                  </div>
+                  <div class="container">
+                    <div class="services-left-dec">
+                      <img src="assets/images/services-left-dec.png" alt="">
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6 offset-lg-3">
+                        <div class="section-heading">
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-3">
+                      <div class="section-heading">
+                        <h2> Why choose us</h2>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="owl-carousel owl-services">
+                          <div class="item" style="height: 300px;">
+                            <h4>Innovative Solutions</h4>
+                           <p> Tailored approaches using advanced technology and sustainable practices to meet industry challenges. </p>
+                            
+                          </div>
+                          
+                          <div class="item" style="height: 300px;">
+                            <h4>GermanQuality</h4>
+                            
+                            <p>Exemplary standards of precision, reliability, and craftsmanship synonymous with renowned German engineering.</p>
+                          </div>
+                          <div class="item" style="height: 300px;">
+                            <h4>Customer Support</h4>
+                            
+                            <p>Our dedicated team provides personalized assistance and reliable service to ensure  satisfaction for our valued customers.</p>
+                          </div>
+                          <div class="item" style="height: 300px;">
+                            <h4> CustomSolutions</h4>
+                           
+                            <p>Exquisite services and products tailored to exceed industry standards, ensuring unmatched quality and customer satisfaction.
+                             </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<!-- why choose us section ens -->
+
+
+<!-- service section start -->
+
+  <div id="service" class="pricing-tables">
+    <div class="tables-left-dec">
+      <img src="assets/images/tables-left-dec.png" alt="">
+    </div>
+    <div class="tables-right-dec">
+      <img src="assets/images/tables-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>Select a suitable <em>Service</em> for your next <span>projects</span></h2>
+            <span>Our Services</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="item first-item">
+            <h4>Trading Products</h4>
+            <!-- <em>$160/mo</em>
+            <span>$140</span> -->
+            <ul>
+              <li>Comprehensive Range</li>
+              <li>Market Access</li>
+              <li>Educational Resources</li>
+              <li>Expert Support</li>
+            </ul>
+            <div class="main-blue-button-hover">
+              <a href="service.html">Know more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item second-item">
+            <h4>Technology Provider</h4>
+            <!-- <em>$240/mo</em>
+            <span>$200</span> -->
+            <ul>
+              <li>Industry Expertise</li>
+              <li>Flexible Licensing Options</li>
+              <li>Clear and Transparent Terms</li>
+              <li>Continuous Suppor</li>
+            </ul>
+            <div class="main-blue-button-hover">
+              <a href="service.html">Know more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4" >
+          <div class="item third-item">
+            <h4>Joint Ventures</h4>
+            <!-- <em>$360/mo</em>
+            <span>$280</span> -->
+            <ul>
+              <li>Innovative Solutions</li>
+              <li>Market Expansion</li>
+              <li>Long-Term Success</li>
+              <li>Best Support</li>
+            </ul>
+            <div class="main-blue-button-hover">
+              <a href="service.html">Know more</a>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <div class="col-lg-4" style="margin-top: 20px;">
+          <div class="item third-item">
+            <h4>Supply and Installation</h4>
+            <!-- <em>$360/mo</em>
+            <span>$280</span> -->
+            <ul>
+              <li>Professional Installations</li>
+              <li>Customized Solutions</li>
+              <li>Quality Assurance</li>
+              <li>Technical Assistance</li>
+            </ul>
+            <div class="main-blue-button-hover">
+              <a href="service.html">know more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4" style="margin-top: 20px;">
+          <div class="item third-item">
+            <h4>Product Distribution</h4>
+            <!-- <em>$360/mo</em>
+            <span>$280</span> -->
+            <ul>
+              <li>Global Reach</li>
+              <li>Strategic Warehousing</li>
+              <li>Reliable Logistics Partners</li>
+              <li>Advanced Tracking Systems</li>
+            </ul>
+            <div class="main-blue-button-hover">
+              <a href="service.html">know more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4" style="margin-top: 20px;">
+          <div class="item third-item">
+            <h4>Technical Support
+</h4>
+            <!-- <em>$360/mo</em>
+            <span>$280</span> -->
+            <ul>
+              <li>After-sales service and technical training.</li>
+              <li>Tailored solutions for each client</li>
+              <li>Services for plastic raw material companies.</li>
+              <!-- <li>Supply and installation of plastic products.</li> -->
+            </ul>
+            <div class="main-blue-button-hover">
+              <a href="service.html">know more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- service section ends -->
+
+  <!-- product section start -->
+
+  <div id="products" class="our-portfolio section">
+    <div class="portfolio-left-dec">
+        <img src="assets/images/portfolio-left-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-10 offset-lg-2" style="display: flex;">
+              <div class="section-heading" style="flex: 1;text-align: center;">
+                  <h2>Our <em>Products</em></h2>
+                  <!-- &amp; Case Studies <span>for Clients</span> -->
+                  <!-- <span>Our Portfolio</span> -->
+              </div>
+              
+                <div class="main-blue-button-hover"style="display: flex; height: 50px;">
+                  <a href="product.html">know more</a>
+                </div>
+           
+          </div>
+      </div>
+  </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="owl-carousel owl-portfolio">
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="./assets/images/1.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a rel="sponsored" href="https://templatemo.com/tm-564-plot-listing" target="_parent"><h4>Corrugated pipes</h4></a>
+                                    <span>The world's largest three-wall injection head for adding a third layer to two-layer corrugated pipes by extrusion</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/2.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a href="#"><h4>Corrugated pipes</h4></a>
+                                    <span>Flexible, Strong, and Durable Solutions for Every Drainage Need.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/3.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a rel="sponsored" href="https://templatemo.com/tm-562-space-dynamic" target="_parent"><h4>Corrugated pipes</h4></a>
+                                    <span>Flexible, Strong, and Durable Solutions for Every Drainage Need.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/4.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a href="#"><h4>Corrugated pipes</h4></a>
+                                    <span>Flexible, Strong, and Durable Solutions for Every Drainage Need.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/5.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a href="#"><h4>Corrugated pipes</h4></a>
+                                    <span>Flexible, Strong, and Durable Solutions for Every Drainage Need.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/6.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a href="#"><h4>Packaging Solutions</h4></a>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/7.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a href="#"><h4>Packaging Solutions</h4></a>
+                                    <!-- <span>SEO &amp; Marketing</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/8.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a href="#"><h4>Pipe solutions</h4></a>
+                                    <!-- <span>SEO &amp; Marketing</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/9.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a href="#"><h4>Packaging solutions</h4></a>
+                                    <!-- <span>SEO &amp; Marketing</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/10.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a href="#"><h4>Packaging solutions</h4></a>
+                                    <!-- <span>SEO &amp; Marketing</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/11.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a href="#"><h4>Polymers</h4></a>
+                                    <!-- <span>SEO &amp; Marketing</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/images/12.jpg" alt="">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <a href="#"><h4>Packaging solutions</h4></a>
+                                    <!-- <span>SEO &amp; Marketing</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- product section end -->
+
+<!-- contact section start -->
+
+<style>
+  
+  
+@media (min-width: 992px) {
+  .col-lg-8 {
+    max-width: 800px; /* Adjust maximum width as per your requirement */
+  }
+}
+</style>
+
+
+
+<div id="" class="subscribe">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <style>
+          .inner-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+          }
+        </style>
+        
+        <div class="inner-content">
+          <h2>Feel Free to contact us</h2>
+          <p style="color: aliceblue;">If you have any questions or need further information, don't hesitate to reach out to us.</p>
+          <div class="phone-call-section">
+            <p style="color: aliceblue;">Call us on:</p>
+            <div class="phone-numbers">
+              <a href="tel:00919605750005" class="phone-link">
+                <div class="phone-container">
+                  <i class="fa fa-phone"></i>
+                  <p>00919605750005</p>
+                </div>
+              </a>
+              
+              <a href="tel:0097142996378" class="phone-link">
+                <div class="phone-container">
+                  <i class="fa fa-phone"></i>
+                  <p>0097142996378</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="enquire-now-section">
+            <a href="./contact.html" class="blink-button">
+              <button type="submit" class="dropbtn">Enquire Now</button>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+  <!-- contact section ends -->
+
+ <!-- footer starts -->
+
+  
+  <div class="footer-dec">
+    <img src="assets/images/footer-dec.png" alt="">
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="about footer-item">
+            <div class="logo">
+              <a href="#"><img src="assets/images/ov-ku.png" style="width: 200px;" alt="Onix Digital TemplateMo"></a>
+            </div>
+            <a href="mailto:info@ov-kunststoffe.com">infon@ov-kunststoffe.com</a>
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services footer-item">
+            <h4>Brands</h4>
+            <ul>
+              <li><a href="brands.html"></a>petrogulfpolymers</li>
+              <li><a href="brands.html">getrapack</a></li>
+              <li><a href="brands.html">ostendorf-kunststoffe</a></li>
+              <li><a href="brands.html">drossbach</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="community footer-item">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="product.html">Soundproof Pipe System</a></li>
+              <li><a href="product.html">Dwc Pipes</a></li>
+              <li><a href="product.html">Plastic Rubber Sealing</a></li>
+              <li><a href="product.html">Specialized plastic packaging</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        <div class="col-lg-3">
+          <div class="subscribe-newsletters footer-item"> 
+            <a href="service.html"><h4>Our Services</h4></a>
+            <p>our services</p>
+           <hr>
+            <p>Get our latest news and ideas to your inbox</p>
+            <form action="#" method="get">
+              <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+              <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright">
+            <p>Copyright © 2024 OVkunststoffe, Ltd. All Rights Reserved. 
+            
+            <!-- Distributed by <a href="https://themewagon.com">Themewagon</a> -->
+          </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+<!-- footer ends -->
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+  // Acc
+    $(document).on("click", ".naccs .menu div", function() {
+      var numberIndex = $(this).index();
+
+      if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+    });
+  </script>
+
+  <script>
+    $("#form-submit").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbxwx5uJi-6jBAO2sRKR8-3dbK-pX6y3aD4qaEQ_XO_O_bz473DXazrosczF4M5yGfh4/exec",
+            data:$("#form-submit").serialize(),
+            method:"post",
+            success:function (response){
+                // alert("Contact Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  function toggleDropdown() {
+      var dropdown = document.getElementById("dropdownMenu");
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+  }
+</script>
+</body>
+</html>
+
+
+
+
+<!-- <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="section-heading">
+            <h2>Feel free to <em>Contact</em> us </h2>
+            <div id="map">
+              <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="360px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+            </div>
+            <div class="info align-self-center" style="width:600px ;padding: 20px 0 20px 0;">
+              <div>
+                <h2>DUBAI</h2>
+              </div>
+              <div style="display: inline-flex;">
+              <span><i class="fa fa-phone"></i> <a href="#">+971 042 996 378<br>+971 050 655 6826</a></span>
+              <span style="padding-left: 20px;"><i class="fa fa-map-marker"></i> <a href="#">  Post box 77157,<br> Ummul Ramoul , <br>Rashidiya Office No 5,<br> Dubai UAE</a></span>
+            </div>
+
+            </div>
+            <div class="info align-self-center" style="width:600px ;padding: 20px 0 20px 0;">
+              <div>
+                <h2>KERALA</h2>
+              </div>
+              <div style="display: inline-flex;">
+              <span><i class="fa fa-phone"></i> <a href="#">+91 960 575 0005<br>+91 954 405 2717</a></span>
+              <span style="padding-left: 20px;"><i class="fa fa-map-marker"></i> <a href="#">V studio Ayyanthole,<br> Trichur 680003<br>Kerala, India</a></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <form id="contact" action="" method="get">
+            <div class="row">
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+               
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="phone" id="phone" placeholder="Your phone number" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="message" id="message" placeholder="How we can help you?" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="main-button">Submit Request</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="contact-dec">
+      <img src="assets/images/contact-dec.png" alt="">
+    </div>
+    <div class="contact-left-dec">
+      <img src="assets/images/contact-left-dec.png" alt="">
+    </div>
+  </div> -->
